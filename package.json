@@ -11,13 +11,18 @@
     },
     "devDependencies": {
         "axios": "^0.17",
+        "browser-sync": "^2.24.6",
+        "browser-sync-webpack-plugin": "^2.2.2",
         "cross-env": "^5.1",
         "laravel-mix": "^1.0",
         "lodash": "^4.17.4",
         "vue": "^2.5.7"
     },
     "dependencies": {
+        "@fortawesome/fontawesome-free": "^5.2.0",
         "buefy": "^0.6.6",
-        "bulma": "^0.7.1"
+        "bulma": "^0.7.1",
+        "font-awesome": "^4.7.0",
+        "jquery": "^3.3.1"
     }
 }

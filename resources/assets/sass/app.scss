@@ -1,9 +1,11 @@
-
-// Fonts
-@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
-
+ 
 // Variables
-@import "variables";
+@import "variables"; 
+// coding for fontawesome
+@import "node_modules/font-awesome/scss/font-awesome";
+@import "node_modules/bulma/bulma";
 
-// Bootstrap
-@import "~bootstrap-sass/assets/stylesheets/bootstrap";
+// for bulma install 
+@import "node_modules/bulma/bulma";
+//for buefy scss
+@import "node_modules/buefy/src/scss/buefy";
