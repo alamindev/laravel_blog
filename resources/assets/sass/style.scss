@@ -1,0 +1,25 @@
+/* coding for responsive */
+
+@media (max-width:1024px) {
+  .dropdown{
+     width: 100%;
+     &:hover{
+       background: #292D3E;
+       color: #fff !important;
+     }
+  }
+  .navbar-start{
+    .nav-link{
+      &:hover{
+        background: #F5F5F5 !important;
+        color: #000;
+      }
+    } 
+  }
+}
+@media (max-width:540px){
+  .social-login{
+    margin: 2px;
+    padding: 10px 12px;
+  }
+}

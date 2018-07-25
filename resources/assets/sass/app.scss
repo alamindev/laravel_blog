@@ -9,3 +9,7 @@
 @import "node_modules/bulma/bulma";
 //for buefy scss
 @import "node_modules/buefy/src/scss/buefy";
+// custom sass pages
+@import "helpers";
+@import "overrides";
+@import "style";

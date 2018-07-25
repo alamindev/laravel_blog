@@ -6,6 +6,9 @@
  */
 
 require('./bootstrap');
+// all importer file
+import Buefy from 'buefy';
+
 
 window.Vue = require('vue');
 
@@ -16,7 +19,18 @@ window.Vue = require('vue');
  */
 
 Vue.component('example-component', require('./components/ExampleComponent.vue'));
-
+Vue.use(Buefy);
 const app = new Vue({
     el: '#app'
+});
+$(document).ready(function () {
+ 
+    // Check for click events on the navbar burger icon
+    $(".navbar-burger").click(function () {
+
+        // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+        $(".navbar-burger").toggleClass("is-active");
+        $(".navbar-menu").toggleClass("is-active");
+
+    });
 });

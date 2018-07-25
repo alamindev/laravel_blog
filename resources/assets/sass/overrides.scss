@@ -1,0 +1,100 @@
+/*================================
+=========for dropdown=============
+================================*/
+
+.dropdown{
+  position: relative;
+  border:none;
+  cursor: pointer;
+  &:hover{
+    background: #fff;
+    color: #000;
+  }
+  &.is-tab{
+    border-bottom: 2px solid #000;
+    &:hover{
+      border-color: #ff4d4d;
+    }
+  }
+}
+
+.navbar.is-spaced .navbar-dropdown, .navbar-dropdown.is-boxed { 
+	top: calc(100% + (0px)) !important; 
+}
+/*================================
+=========for login =============
+================================*/
+.login{
+  box-shadow: 0 0 1px rgba(57, 78, 78, .15), 0 20px 55px -8px rgba(57, 78, 78, .25);
+}
+.is-muted{
+  color: $gray-light !important; 
+}
+a.is-muted:hover{
+  color: #444 !important;
+}
+// coding for log in social
+ 
+.social-login {
+  background-color: whitesmoke;
+  padding: 15px 16px;
+  margin: 0px 10px;
+  -webkit-box-shadow: 1px 5px 20px 1px #AAAAAA;
+  box-shadow: 0px 4px 6px 1px #D7D7D7;
+  transition: background .3s ease-in-out;
+  -webkit-transition: background .3s ease-in-out;
+  -moz-transition: background .3s ease-in-out;
+  -ms-transition: background .3s ease-in-out;
+  -o-transition: background .3s ease-in-out;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  display: inline-block;
+  &:nth-child(1){
+    &:hover{
+      background:#3B5999;
+      color: #fff; 
+    }
+    i{
+      color: #3B5999; 
+    }
+  }
+  &:nth-child(2){
+    &:hover{
+      background:#1DA1F3;
+      color: #fff; 
+    }
+    i{
+      color: #1DA1F3;
+    }
+  }
+  &:nth-child(3){
+    &:hover{
+      background:#800080;
+      color: #fff; 
+    }
+    i{
+      color: #800080;
+    }
+  }
+  &:nth-child(4){
+    &:hover{
+      background:#D62D20;
+      color: #fff; 
+    }
+    i{
+      color: #D62D20;  
+    }
+  }
+
+  &:hover i{ 
+      color: #fff;  
+     
+  }  
+  &:hover{
+    box-shadow: none;
+  }
+}
+ 
